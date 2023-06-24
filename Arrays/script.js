@@ -5,7 +5,7 @@
 // for(let i=0; i<arr.length;i++){
 //     console.log(arr[i]);
 // }
-// num.at(1)
+// // num.at(1)
 
 // console.log(arr.at(6));
 
@@ -36,7 +36,7 @@
 // console.log(arr.includes(3.5))     //false
 // console.log(arr.includes(2.5))     //true
 
-                                // Map Methods
+// Map Methods
 
 // let arr = [1, 2, 3, 4];
 // // console.log(arr);
@@ -53,7 +53,7 @@
 // let upDatedArray=array.map((value)=>{
 //     if (value>50) {
 //         return value
-        
+
 //     }
 //     else{
 //         return value + 10
@@ -86,3 +86,73 @@ console.log(arr);
 
 let elementExist = arr.every(element => element > 0)
 console.log(elementExist)
+
+
+// let num=[12,34,56,32,65];
+// num.push(5);
+// console.log(num);
+
+// let num=[12,34,56,32,65];
+// num.pop()
+// console.log(num);
+
+// let num=[12,34,56,32,65];
+// num.fill(3);
+// console.log(num);
+
+// let num=[12,34,56,32,65];
+// num.shift();
+// console.log(num);
+
+
+// let num=[12,34,56,32,65];
+// num.unshift(33);
+// console.log(num);
+
+// let num=[12,34,56,32,65];
+// num.reverse();
+// console.log(num);
+
+
+// let num=[12,34,56,32,65];
+// num.includes(34)
+// console.log(num);
+
+// let arr = [1, 2, 3, 4];
+// console.log(arr);
+// let updatedArr =  arr.map(element => {
+//     if (element >= 2) {
+//         return element
+//     } else {
+//         return element + 1
+//     }
+// })
+// console.log(updatedArr)
+
+
+// let num=[12,23,34,45];
+// console.log(num);
+// let updatedNum= num.map((value,index,array)=>{
+//     console.log(value,index,array);
+//     return value+index
+// })
+
+// console.log(updatedNum);
+
+
+// let array=[12,23,34,33];
+// let newArray=array.map((value)=>{
+//     if(array%2==0){
+//       return value
+//     }
+//     else{
+//        return value-1
+//     }
+// })
+
+// console.log(newArray);
+
+
+
+
+

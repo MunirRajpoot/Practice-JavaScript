@@ -1,0 +1,31 @@
+1- How we can access HTML elements using DOM in javascript?
+Ans:-We can Access elements HTML using DOM by differnt methods.
+Five methods access elements.
+ 
+1.document.getElementById()
+This method is used to access an HTML element with a specific ID.
+
+let myElement = document.getElementById("munir");
+"String represents the id of the element by you want to access."
+
+2.document.getElementsByClassName()
+This method is used to access elements with a class name.
+
+let myElements=document.getElementsByClassName("Computer_Science")
+"String represents the class name elements you want to access."
+
+3.document.getElementsByTagName()
+This method is used to access HTML elements with a specific tag name.
+
+let myElements = document.getElementsByTagName("div");
+"String represents the tag name of elements if you want to access."
+
+4.document.querySelector()
+This method is used to access the first HTML element that matches a specific CSS selector.
+var myElement = document.querySelector("#myId.myClass")
+"String represents CSS selector of the element of you want to access."
+
+5.document.querySelectorAll()
+This method is used to access all HTML elements that match a specific CSS selector.
+var myElements = document.querySelectorAll("div.myClass")
+"String represents CSS selector of elements you want to access."

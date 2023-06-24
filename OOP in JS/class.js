@@ -18,16 +18,26 @@
 class person{
     constructor(n,a){
      //constructor fuction is similar to other function  is automayically call when an object is created.Initialized properties of class.
-     this.name = n;
+     this.nam = n;
      this.age = a;
     }
-    age(){
-        
+    a_g_e(nam){
+        console.log(`${nam} is ${this.age} years old`);
+    }
+
+    static qualification="undergraduate";
+    static method(){
+    console.log(this.age);
+    console.log(this.nam);    
     }
 }
 
 let personObject1= new person("Munir","19")
 let personObject2= new person("Saif","18")
 
+// personObject1.a_g_e("sabtain");
+
+// console.log(personObject2);
+// personObject2.a_g_e("Saif");
 console.log(personObject1);
-console.log(personObject2);
+person.method();

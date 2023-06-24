@@ -1,0 +1,26 @@
+3- What are the event-listners in DOM?
+
+Ans:-Event listeners in the Document Object Model (DOM) allow you to respond to various user actions or browser events that occur in your web page. Here are some common event listeners in the DOM:
+
+1.click: This event listener fires when the user clicks on an element.
+
+2.mouseover/mouseout: This event listeners fire when the user moves the mouse over or out of an element.
+
+3.keydown/keyup: This event listeners fire when the user presses or releases a key on the keyboard.
+
+4.submit: This event listener fires when a form is submitted, either by clicking a submit button or by pressing the Enter key.
+
+5.load: This event listener fires when the page has finished loading.
+
+6.resize: This event listener fires when the browser window is resized.
+
+7.scroll: This event listener fires when the user scrolls the page.
+
+Example:
+To add an event listener to an HTML element, you can use the addEventListener() method, which takes two parameters: the name of the event you want to listen for, and a function that will be called when the event occurs. For example, to add a click event listener to a button element with an ID of "myButton", you can use the following code.
+
+var myButton = document.getElementById("myButton");
+myButton.addEventListener("click", function() {
+  // do something when the button is clicked
+});
+When user click the button and function is called.

@@ -1,0 +1,15 @@
+2- What are the activities that we can perform using DOM?
+
+Ans:-There are many activities perform using Document Object Model(DOM).Document Obbject Model is a powerful interface that allows you to interact with the content of HTML document.
+1.Manipulating CSS styles: You can use DOM properties like style to modify the CSS styles of HTML elements.
+
+2.Modifying HTML content: You can use DOM properties like innerHTML and textContent to modify the content of HTML elements.
+
+3.Manipulating HTML attributes: You can use DOM methods like getAttribute() and setAttribute() to get and set the values of HTML attributes.
+
+4.Accessing HTML elements: You can use DOM methods like getElementById(), getElementsByClassName(), and getElementsByTagName() to access and manipulate HTML elements in the document.
+
+5.Manipulating form elements: You can use DOM methods like querySelector() and querySelectorAll() to access form elements and their values, and use DOM methods like submit() to submit form data to a server.
+
+6.
+     
