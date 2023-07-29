@@ -37,3 +37,28 @@ console.log(sum(num1, num2));
 // );
 
 
+const p = new Promise((resolve, reject) => {
+  let x = 12;
+  if (x > 100) {
+    resolve("Something done!");
+  } else {
+    reject("Something rejected!");
+  }
+})
+  .then((value) => {
+    console.log(value);
+    console.log(value);
+    return "Something done2!";
+  })
+  .then((value) => {
+    console.log(value);
+    console.log(value);
+  })
+  .catch((error) => {
+    console.log(error);
+    console.log(error);
+    throw new "Something done3 from first catch"();
+  })
+  .then((value) => console.log(value))
+  .catch((error) => console.log(error));
+
